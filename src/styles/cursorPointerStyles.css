@@ -1,0 +1,42 @@
+.cursorPointer {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 999;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pointerLerped {
+  position: fixed;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  transition: background-color 600ms ease;
+  pointer-events: none;
+}
+
+.pointerLerped1 {
+  width: 60px;
+  height: 60px;
+  z-index: 998;
+  border: solid 4px #252525;
+}
+
+.pointerLerped2 {
+  width: 50px;
+  height: 50px;
+  z-index: 997;
+  border: solid 3px #252525;
+}
+
+.pointerLerped3 {
+  width: 40px;
+  height: 40px;
+  z-index: 996;
+  border: solid 2px #252525;
+}
